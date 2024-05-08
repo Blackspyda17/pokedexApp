@@ -17,11 +17,11 @@ The application is built using cutting-edge Android technologies, encompassing:
 * [Gradle version Catalog](https://docs.gradle.org/current/userguide/platforms.html) for streamlined dependency management
 
 # Architecture and patterns
-PokeTracker employs Clean Architecture principles, comprising three distinct layers: Data, Domain, and Presentation. The MVVM pattern is followed throughout. Each layer is highly decoupled and operates independently.
+PokedexApp employs Clean Architecture principles, comprising three distinct layers: Data, Domain, and Presentation. The MVVM pattern is followed throughout. Each layer is highly decoupled and operates independently.
 
 Communication between layers adheres to a unidirectional flow. The UI layer dispatches user actions as intents to the ViewModel, which interacts with the Domain layer and subsequently the Data layer. Data is exposed across layers through data streams.
 
-## Screenshots
-
+# Snapshot
+<img width="300" width=“500” src="images/pokedexApp.gif"></img>
 
 
